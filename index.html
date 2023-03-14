@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side Hustle Task- Form</title>
+<style>
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  body{
+    background-color: rgb(34, 21, 6);
+  }
+  .reg{
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(34, 21, 6);
+  }
+
+  .regform{
+    border-radius: 5px;
+  }
+
+  .form{
+    padding: 10px 15px 0 40px;
+  }
+
+  #fname{
+    width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border-style: none;
+    outline: none;
+    text-indent: 05px;
+    font-size: 17px;  
+  }
+  #email{
+    width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border-style: none;
+    outline: none;
+    text-indent: 05px;
+    font-size: 17px;
+  }
+  .Email{
+    margin: 10px 0 5px;
+    font-size: larger;
+  }
+  .Name{
+    margin: 10px 0 5px;
+    font-size: larger;
+  }
+  .name{
+    padding: 5px 0 5px;
+  }
+
+  .gender{
+    margin: 10px 0 10px;
+    margin-top: 15px;
+    font-size: larger;
+  }
+
+  .Phone{
+    margin: 10px 0 5px;
+    font-size: larger;
+  }
+  #pnumber{
+    width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border-style: none;
+    outline: none;
+    text-indent: 05px;
+    font-size: 17px;
+  }
+  .Password{
+    margin: 10px 0 5px;
+    font-size: larger;
+  }
+  #password{
+    width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border-style: none;
+    outline: none;
+    text-indent: 05px;
+    font-size: 17px;
+  }
+
+
+
+  .regform{
+    background-color: rgb(153, 138, 138);
+    max-width: 500px;
+    margin: 2rem auto;
+    height: 580px;
+    box-sizing: border-box;
+    box-shadow: 5px 4px 10px black;
+    -moz-box-shadow: 5px 4px 10px black;
+    -webkit-box-shadow: 5px 4px 10px black;
+    padding: 2rem;
+    
+    
+  }
+  #btn{
+    width: 300px;
+    padding: 12px;
+    margin: 10px 0 5px;
+    background-color: rgb(34, 21, 6);
+    color: white;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 2px;
+  }
+  #btn:hover{
+    background-color: rgba(51, 48, 48, 0.356);
+    animation: forwards;
+  }
+</style>
+    
+</head>
+<body>
+  <div>
+    <form action="welcome.html" class="regform" id="form">
+      
+      <div class="form">
+      <h1 class="reg">REGISTRATION FORM</h1>
+      <!-- Names -->
+    <div class="Name">
+      <p class="name" >Name</p>
+      <label for="Full name"></label>
+      <input type="text" name="first name" placeholder="Full Name" id="fname" required>
+    </div>
+      
+      <!-- Gender -->
+    <div class="gender">
+      <label for="gender-male">Male</label>
+      <input type="radio" name="gender-choice" value="choice-1" required>
+      <label for="gender-female">Female</label>
+      <input type="radio" name="gender-choice" value="choice-2" required>
+    </div>
+
+      <!-- Email -->
+    <div class="Email">
+      <p class="name">Email</p>
+      <label for="Email"></label>
+      <input type="Email" name="Email" placeholder="xyz@gmail.com" id="email" required>
+    </div>
+
+      <!-- Phone Number -->
+    <div class="Phone">
+      <p class="name">Phone Number</p>
+      <label for="Phone Number"></label>
+      <input type="text" name="Phone Number" placeholder="+234123456789" id="pnumber" required>
+    </div>
+
+      
+
+      <!-- Password -->
+    <div class="Password">
+      <p class="name">Password</p>
+      <label for="Password"></label>
+      <input type="password" name="Password" value="" placeholder="Enter Your Password" id="password" required>
+    </div>
+
+      <!-- Submit Button -->
+    <div class="container">
+      <button type="submit" id="btn">Submit</button>
+    </div>
+    </div>
+    </form>
+    </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
